@@ -1,0 +1,43 @@
+.status {
+  width:100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.status>div {
+  width:33.3%;
+}
+
+.status_left {
+  padding-left:5px;
+  font-size:0.8rem;
+}
+
+.status_center{
+  display: flex;
+  justify-content:center;
+  font-size:0.8rem;
+}
+
+
+.status_right {
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  font-size:0.8rem;
+  padding-right:5px;
+}
+
+.status_right>span {
+  margin-right:2px;
+}
+
+.status_right>div:nth-child(2) {
+  font-size:1.15rem;
+}
+
+.status_right>div:nth-child(3) {
+  margin-left:2px;
+  font-size:0.65rem;
+}

@@ -1,0 +1,36 @@
+.login {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin-top:70px;
+  
+}
+
+
+.login input {
+  font-size:1rem;
+  border:none;
+  padding:10px 0px;
+  margin:0px 20px 5px;
+}
+
+.login input::placeholder {
+  color:black;
+}
+
+
+.login input:not([type='submit']) {
+  cursor:pointer;
+  border-bottom:3px solid gray;
+  opacity:0.3;
+}
+
+.login input:nth-child(3) {
+  margin-top:25px;
+  margin-bottom:10px;
+}
+
+.login a {
+  text-align:center;
+  text-decoration-line:none;
+}
